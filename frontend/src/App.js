@@ -94,7 +94,6 @@ function App() {
           <Route path="/" render={props => {
             return <DashNav {...props}/>
           }}/>
-          
           <Route exact path='/' component={Marketing} />
           <Route exact path='/decklist' component={DeckList} />
           <Route

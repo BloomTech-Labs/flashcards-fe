@@ -21,7 +21,7 @@ console.log(props.tags)
       <input
         className='tagss'
         type='text'
-        placeholder={props.tags < 1 ? 'Please Insert Tags' : null}
+        placeholder={props.tags < 1 ? 'Kinitec Molecular Theory, Acid Naming, etc.' : null}
         onKeyUp={event => (event.key === 'Enter' ? props.addTags(event) : null)}
       />
     </div>

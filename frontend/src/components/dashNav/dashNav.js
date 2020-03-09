@@ -31,7 +31,7 @@ const DashNav = props => {
       }
 
     return(
-        <div className="dashNav">
+        <div className="dashNav" onClick={e=>{e.preventDefault(); props.history.push('/dashboard')}}>
             <div className='mNeme' >
                 <span className='m'>m</span>
                 <span className='neme'>Neme</span>

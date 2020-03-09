@@ -84,7 +84,6 @@ const DeckForm = props => {
     const subDeck = newDecks.filter(card => {
       return card.front && card.back;
     });
-    console.log('subDeck in deck form', subDeck)
     if (!newName.deckName) {
       // insures deckname is filled
       alert('Please add a Deck Name');
@@ -104,12 +103,10 @@ const DeckForm = props => {
       // selectedTags([...tags, event.target.value]);
       event.target.value = '';
     }
-    console.log(tags);
   };
 
   const removeTags = index => {
     setTags([...tags.filter(tag => tags.indexOf(tag) !== index)]);
-    console.log(tags);
   };
 
   // const selectedTags  =  {tags}

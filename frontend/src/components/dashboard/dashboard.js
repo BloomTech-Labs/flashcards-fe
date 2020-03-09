@@ -66,7 +66,7 @@ const Dashboard = props => {
         className='bottom-button'
         onClick={() => props.history.push('/import-deck')}
       >
-        import Deck
+        Import From Quizlet
       </button>
       <section className='decks-section'>
         {/* <div className='decks-selectors'>

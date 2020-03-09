@@ -172,7 +172,7 @@ class EditTemplate extends React.Component {
               <Segment className='segments'>
                 <div className='cardTop'>
                   <Header as='h5' className='headers'>
-                    Front
+                   Front
                   </Header>
                   {/* <Checkbox
                     // style={{border: "none"}}
