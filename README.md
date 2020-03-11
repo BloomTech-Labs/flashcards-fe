@@ -70,3 +70,5 @@ There are some necessary environment variables for the authentication system to 
 * REACT_APP_PROJECT_ID
 * REACT_APP_APP_ID
 ```
+
+https://api.codeclimate.com/v1/badges/dc8f06a18be0378f3e22/test_coverage
