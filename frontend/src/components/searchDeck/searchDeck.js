@@ -154,7 +154,7 @@ const SearchDeck = () => {
       <Grid container>
         {windowWidth()}
         {mobileState ? <MobileFilter query={query} users={users} filterClick={filterClick} tags={tags} mobileState={mobileState} setMobileState={setMobileState} categoryDiv={categoryDiv}/> : null}
-        <Grid item md={11} xs={12} className="form">
+        <Grid item md={11} xs={12} className="cody">
           {query.length > 0 ? <h2 data-testid='users'>Users</h2> : null}
           {query
             ? users.map((users, id) => (
